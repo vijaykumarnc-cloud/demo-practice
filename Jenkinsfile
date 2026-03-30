@@ -8,7 +8,7 @@ pipeline{
       }
       stage ("code build"){
         steps{
-          echo "code build from tool"
+          echo "code build from the tool"
         }
       }
     }

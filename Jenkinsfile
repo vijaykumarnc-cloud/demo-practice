@@ -3,12 +3,12 @@ pipeline{
     stages{
       stage ("code clone"){
         steps{
-          echo "code cloning from the git Hub"
+          echo "code cloning from github"
         }
       }
-      stage ("code clone"){
+      stage ("code build"){
         steps{
-          echo "code cloning from the git Hub"
+          echo "code build"
         }
       }
     }

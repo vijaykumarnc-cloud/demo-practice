@@ -12,7 +12,7 @@ pipeline{
       }
       stage ("code build"){
         steps{
-          echo "code build"
+          echo "code build from tool"
         }
       }
     }

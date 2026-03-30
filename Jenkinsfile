@@ -11,5 +11,10 @@ pipeline{
           echo "code build from the tool"
         }
       }
+      stage ("deploy"){
+        steps{
+          echo "code deployment"
+        }
+      }
     }
 }
